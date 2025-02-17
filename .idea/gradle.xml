@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/android" />
+            <option value="$PROJECT_DIR$/app/desktop" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/core" />
+            <option value="$PROJECT_DIR$/common/core/DI" />
+            <option value="$PROJECT_DIR$/common/core/DI/koin" />
+            <option value="$PROJECT_DIR$/common/core/UI" />
+            <option value="$PROJECT_DIR$/common/core/UI/compose" />
+            <option value="$PROJECT_DIR$/common/core/UI/viewModel" />
+            <option value="$PROJECT_DIR$/common/core/UI/viewModel/jetbrains" />
+            <option value="$PROJECT_DIR$/common/core/coroutines" />
+            <option value="$PROJECT_DIR$/common/core/database" />
+            <option value="$PROJECT_DIR$/common/core/database/sqlDelight" />
+            <option value="$PROJECT_DIR$/common/core/network" />
+            <option value="$PROJECT_DIR$/common/core/network/retrofit" />
+            <option value="$PROJECT_DIR$/common/core/platform" />
+            <option value="$PROJECT_DIR$/common/features" />
+            <option value="$PROJECT_DIR$/common/features/binInfo" />
+            <option value="$PROJECT_DIR$/common/features/binInfo/main" />
+            <option value="$PROJECT_DIR$/common/main" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
