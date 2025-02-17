@@ -1,0 +1,14 @@
+[versions]
+sqlDelight = "2.0.2"
+
+[libraries]
+gradlePlugin = { module = "app.cash.sqldelight:gradle-plugin", version.ref = "sqlDelight" }
+core = { module = "app.cash.sqldelight:runtime", version.ref = "sqlDelight" }
+android = { module = "app.cash.sqldelight:android-driver", version.ref = "sqlDelight" }
+desktop = { module = "app.cash.sqldelight:sqlite-driver", version.ref = "sqlDelight" }
+ios = { module = "app.cash.sqldelight:native-driver", version.ref = "sqlDelight" }
+
+coroutines = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqlDelight" }
+
+[plugins]
+sqlDelight = { id = "app.cash.sqldelight", version.ref = "sqlDelight" }

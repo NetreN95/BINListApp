@@ -1,0 +1,3 @@
+package ru.netren.database.sqldelight.multiplatform
+
+actual class SQLDelightConfiguration

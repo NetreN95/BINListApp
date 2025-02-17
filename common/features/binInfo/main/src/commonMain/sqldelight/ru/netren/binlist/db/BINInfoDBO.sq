@@ -1,0 +1,39 @@
+import kotlin.Boolean;
+
+CREATE TABLE IF NOT EXISTS BINInfoDBO (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    bin INTEGER NOT NULL,
+    scheme TEXT NOT NULL,
+    type TEXT NOT NULL,
+    brand TEXT NOT NULL,
+    prepaid INTEGER AS Boolean NOT NULL,
+
+    bank_name TEXT NOT NULL,
+    bank_url TEXT NOT NULL,
+    bank_phone TEXT NOT NULL,
+    bank_city TEXT NOT NULL,
+
+    number_length INTEGER NOT NULL,
+    number_luhn INTEGER AS Boolean NOT NULL,
+
+    country_numeric INTEGER NOT NULL,
+    country_alpha2 TEXT NOT NULL,
+    country_name TEXT NOT NULL,
+    country_emoji TEXT NOT NULL,
+    country_currency TEXT NOT NULL,
+    country_latitude INTEGER NOT NULL,
+    country_longitude INTEGER NOT NULL
+);
+
+select:
+SELECT * FROM BINInfoDBO
+ORDER BY id DESC;
+
+insert:
+INSERT INTO BINInfoDBO(
+bin, scheme, type, brand, prepaid,
+bank_name, bank_url, bank_phone, bank_city,
+number_length, number_luhn,
+country_numeric, country_alpha2, country_name, country_emoji,
+country_currency, country_latitude, country_longitude
+) VALUES ?;

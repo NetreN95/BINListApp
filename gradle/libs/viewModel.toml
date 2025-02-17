@@ -1,0 +1,5 @@
+[versions]
+jetbrainsViewModel = "2.8.2"
+
+[libraries]
+jetbrainsViewModel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "jetbrainsViewModel" }
